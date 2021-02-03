@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-In-Js-Document</title>
+</head>
+<body>
+    <h1 onmouseout="alert('Do Not Repeat')">Exploring Event-In-JavaScript</h1>
+    <button onmouseover="alert('Some One Click Me')">Click This Button</button>
+
+    <h1 onclick="handleClick()">Function Onclick</h1>
+    <button>Click Me-1</button>
+    <button id = "second">Click Me-2</button>
+    <button id="lastBtn">Click Me-3</button>
+    <script>
+        function handleClick(){
+            document.write(new Date());
+        }
+        // document.getElementById('lastBtn')
+        // .addEventListener('click', function(//Annonimous Function){
+        //     document.body.style.color = 'white';});
+
+        // function handleClick(){
+        //     document.body.style.backgroundColor = 'tomato';}
+
+        // var secondButton = document.getElementById('second');
+        //secondButton.onclick = handleClick; //while i'm click function set 
+        //secondButton.addEventListener('click', handleClick);
+      
+    </script>
+</body>
+</html>
